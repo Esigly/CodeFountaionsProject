@@ -1,0 +1,114 @@
+body {
+    /* background-color:  black; */
+    color: white;   
+    background-color: rgb(19,20,23);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+  }
+
+.body-content {
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; para tener 2 columnas del mismo tamaño
+    margin-top: -4px; */
+    background: linear-gradient(to right, rgba(49, 52, 63, 1), black);
+    color: white;
+    font-family: 'Lato','Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    padding-top: 30px;
+   }
+
+.blue-text {
+    color: rgb(97, 209, 249);
+    font-weight: bold;
+}
+
+.blue-text:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.body-content-text-bold {
+    color: whitesmoke;
+    font-weight: bold;
+   font-family: 'Lato','Lucida Grande', sans-serif;
+}
+.body-content-text-p {
+    font-size: 1.7rem;
+}
+
+.body-content > .body-content-text {
+    padding: 30px;
+    font-size: 1.5em;
+    color:rgba(179, 184, 201, 1);
+}
+
+
+.body-content > .body-content-image {
+       padding-left: 30px;
+}
+
+
+
+.btn-wrapper > .btn-green {
+    background-color: rgba(71, 207, 115, 1);
+    color: black;
+    font-family: 'Lato','Lucida Grande', sans-serif;
+    height: 50px;
+    width: 260px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: 1px solid  rgba(71, 207, 115, 1);
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+    }
+.btn-wrapper > .btn-green:hover {
+    background-color: rgba(37, 140, 70, 1);
+    color: white;
+}
+
+.btn-wrapper > .btn-green:active {
+    box-shadow: 5px 5px 30px  rgba(37, 140, 70, 1);
+}
+
+.btn-wrapper > .btn-black {
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Lato','Lucida Grande', sans-serif;
+    height: 50px;
+    width: 230px;
+    font-size: 0.8em;
+    border-color:black;
+    font-weight: bold;
+    border: 1px solid black;
+    outline: none;
+}
+
+.btn-wrapper > .btn-black:hover {
+    background-color: rgba(49, 52, 63, 1);
+}
+.btn-wrapper > .btn-black:active {
+    box-shadow: 5px 5px 30px rgba(49, 52, 63, 1);
+}
+
+
+
+/* LISTADO DE COLORES 
+
+Gris letra desactivada : rgba(170, 174, 188, 1)
+verde boton o subrayado : rgba(71, 207, 115, 1)
+fondo gris desactivado foco: rgba(49, 52, 63, 1)
+fondo gris activado foco: rgba(113, 119, 144, 1)
+
+boton verde sin foco: rgba(71, 207, 115, 1), letra negra
+boton verde con foco: rgba(36, 140, 70, 1), letra blanca
+
+fondo gris: rgba(44, 48, 58, 1)
+letra blanca: rgba(255, 255, 255, 1)
+letra Lato, Lucida Grande
+
+letra amarilla: rgba(255, 221, 64, 1)
+
+*/
